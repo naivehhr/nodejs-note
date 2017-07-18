@@ -59,6 +59,7 @@ admins: {
   syncModel: 'exist', // 'none', 'all', 'exist'
     // sync devDependencies or not, default is false
   syncDevDependencies: true,
+registryHost: ip
 ```
 
 
