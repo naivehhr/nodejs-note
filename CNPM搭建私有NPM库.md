@@ -1,5 +1,8 @@
 ## 搭建私有NPM
 
+[GITBOOK](https://ggpp224.gitbooks.io/web-notes/content/CNPM%E7%A7%81%E6%9C%89%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA.html)
+
+[一些参数配置](https://xcoder.in/2016/07/09/lets-cnpm-base-deploy/)
 
 ### 安装
 ```
