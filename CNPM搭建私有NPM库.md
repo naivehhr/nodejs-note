@@ -153,3 +153,18 @@ npm install
 ```
 
 [npm 混合公共仓库和私有仓库](https://breeswish.org/blog/2016/02/16/npm-hybridize-public-and-private-repository/)
+
+发布时候注意切换用户
+先在对应的环境下(npm/cnpm)whoami 看看是谁
+切换用户 npm/cnpm login
+账号信息: cnpm u:admin p:admin
+
+
+项目npm install 时候要在.npmrc 中添加特定源头 
+一下都行
+
+```
+- @faegroup:registry=http://10.20.88.77:7001/
+- npm install @faegroup/test -registry=http://10.20.88.77:7001/
+- npm config set registry https://registry.npm.taobao.org 
+```
